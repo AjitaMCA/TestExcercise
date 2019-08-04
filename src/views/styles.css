@@ -1,0 +1,17 @@
+/* Create four equal columns that floats next to each other */
+.columns {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  	span {
+  		background-color: 
+  	}
+}
+
+/* Clear floats after the columns */
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
